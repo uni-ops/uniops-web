@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || 'Lipotes' // page title
+const name = defaultSettings.title || 'uniops' // page title
 
 // If your port is set to 80,
 // use administrator privileges to execute the command line.
@@ -38,7 +38,7 @@ module.exports = {
     },
     proxy: {
       [process.env.VUE_APP_BASE_API]: {
-        target: process.env.VUE_APP_BASE_API_HOST, // 本地环境:lipotes-b
+        target: process.env.VUE_APP_BASE_API_HOST, // 本地环境:uniops-b
         ws: true,
         changeOrigin: true,
         pathRewrite: {

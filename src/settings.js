@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: 'Lipotes',
+  title: 'uniops',
 
   /**
    * @type {boolean} true | false

@@ -1,6 +1,6 @@
 import defaultSettings from '@/settings'
 
-const title = defaultSettings.title || 'Lipotes'
+const title = defaultSettings.title || 'uniops'
 
 export default function getPageTitle(pageTitle) {
   if (pageTitle) {

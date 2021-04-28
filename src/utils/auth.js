@@ -1,6 +1,6 @@
 import Cookies from 'js-cookie'
 
-const TokenKey = 'lipotes-token'
+const TokenKey = 'uniops-web-token'
 
 export function getToken() {
   return Cookies.get(TokenKey)

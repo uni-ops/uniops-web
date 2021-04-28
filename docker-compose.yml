@@ -1,9 +1,9 @@
 version: "2.2"
 
 services:
-  lipotes-fe:
-    container_name: lipotes-fe
-    image: lipotes-fe
+  uniops-web:
+    container_name: uniops-web
+    image: uniops-web
     build: .
     restart: always
     environment:
@@ -17,4 +17,4 @@ services:
 networks:
   default:
     external:
-      name: lipotes-network
+      name: uniops-web-network
