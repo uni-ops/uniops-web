@@ -1,3 +1,3 @@
-### uni-web from UNIOPS
+### uni-web for UNIOPS
 
 new vue3 project
